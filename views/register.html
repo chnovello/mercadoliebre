@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>proyecto_ml</title>
+
+<link rel="stylesheet"  href="/css/home.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet"/> 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/81a5be0e19.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    
+    <body>
+        
+        <header>
+       
+            <div class="cabecera">
+
+                        <img src= "/images/logo-mercado-liebre.svg" class="logo-meli">
+
+                        <div class="barra-busqueda" >Buscar productos, marcas</div>
+
+         
+                        <div class="search">
+                        <i class="fas fa-search"></i>
+                        </div>
+
+                        <div class="banner-cuotas">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <a>Compra en cuotas y sin tarjeta de credito</a>
+                         </div>
+       
+            </div>
+       
+
+        <div class="main-navbar">
+
+            <ul class="left-navbar">
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
+            
+        </ul>   
+        
+            <ul class="right-navbar">
+            <li><a href="/">Inicio</a><i class="fas fa-home"></i></i></li>
+            <li><a href="login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+            
+        </ul>
+        </div>
+    </div>
+        
+
+        
+    </header>
+    
+    <img src= "/images/img-home-banner.jpg" class="banner-meli">
+
+        <main>
+            <section class="section">
+        
+                    <form class="register" action="/" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                    <legend><b>Nombre y apellido</b></legend>   
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                    <legend><b>Nombre de usuario</b></legend>
+                    <label for="username"></label>
+                    <input type="text" name="username" id="usernames" required>
+                    </fieldset>
+
+                    <fieldset>
+                    <legend><b>Fecha de nacimiento</b></legend>
+                    <label for="date"></label>
+                    <input type="date" name="fecha nacimiento" id="fecha nacimiento" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                    <legend><b>Domicilio</b></legend>
+                    <label for="domicilio"></label>
+                    <input type="text" name="domicilio" id="domicilio" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>Perfil de Usuario</b></legend>
+                        <input checked type="radio" name="perfil" id="comprador" value="Comprador" required>
+                        <label for="comprador">Comprador</label>
+                        <input type="radio" name="perfil" id="vendedor" value="Vendedor">
+                        <label for="vendedor">Vendedor</label>
+
+                    </fieldset>
+
+                    <fieldset class="interes">
+                        <legend><b>Interes</b></legend>
+                        
+                        <label for="electro">
+                            <input type="checkbox" name="interes" id="electro" value="electro">
+                            Electro
+                        </label>
+
+                        <label for="moda">
+                            <input type="checkbox" name="interes" id="moda" value="moda">
+                             Moda
+                        </label>
+
+                        <label for="hogar">
+                        <input type="checkbox" name="interes" id="hogar" value="hogar">
+                            Hogar
+                        </label>
+
+                        <label for="jugueteria">
+                        <input type="checkbox" name="interes" id="jugueteria" value="jugueteria">
+                            Jugueteria
+                        </label>
+
+                        <label for="vida">
+                        <input type="checkbox" name="interes" id="vida" value="vida">
+                        <label for="vida">
+                            Vida sana
+                        </label>
+                        
+                    </fieldset>
+
+                    <fieldset class="fotoperfil">
+                        <legend><b>Foto de perfil</b></legend>
+                        <label for="foto">
+                        <input type="file" name="foto perfil" id="foto perfil">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                    <legend><b>Contraseña</b></legend>
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>Confirmar contraseña</b></legend>
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" required>
+                        </fieldset>
+                        
+
+                        <input type="submit" value="Enviar">  
+                        <input type="reset" value="Reset">
+                    
+                    
+                 
+                </form>
+        
+                </section>
+        
+                </main>
+        
+     
+
+                <footer class=>
+
+                    <div class="pie">   
+                       <ul >
+                           <i class="fas fa-credit-card"></i>
+                           <li><h2>Pagá con tarjeta o en efectivo</h2></li>
+                           <a>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</a>
+                           
+                       </ul>
+                       
+                       <ul>
+                           <i class="fas fa-gift"></i>
+                           <li><h2>Envío gratis desde $ 2.500</h2></li>
+                           <a>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                               productos. Es un beneficio de Mercado Puntos.</a>
+                               
+                           </ul>
+                           
+                           <ul> 
+                               <i class="fas fa-user-shield"></i>
+                               <li><h2>Seguridad, de principio a fin</h2></li>
+                               <a>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                                   porque estás siempre protegid@.</a>
+       
+                               </ul>
+                    </div>
+                                  
+                    <h4>  Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+       
+       
+                </footer> 
+                               
+                         
+       
+            </body>
+                               
+                               
+       
+       </html> 
