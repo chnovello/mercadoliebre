@@ -10,15 +10,17 @@
 
 header {       
     background-color: #EAC926;
-    max-width: 100%;
-    padding: 1%;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+
 }
 
 .cabecera {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-align-content: space-around;
+align-content: center;
 justify-content: center;
 max-width: 100vw;
 }
@@ -50,7 +52,7 @@ form.busqueda {
 }
 
 input.barra {
-    margin-top: -20px;
+    margin-top: 1 vh;
     font-size: 16px;
     width: 20vw;
     background-color:#ebebeb;
@@ -67,7 +69,7 @@ input.barra {
 
 .banner-cuotas{
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     width: 100vw;
@@ -119,7 +121,7 @@ input.barra {
 }
 
 .banner-meli{
-    
+    margin-top: 10%;
     width: 100vw;
     
 }
@@ -141,6 +143,7 @@ article {
     
     display: flex;
     flex-direction: column;
+    
     justify-content:start;
     max-width: 100vw;
     margin: 10px;
@@ -152,19 +155,24 @@ article {
 article img {
     
     background-color: #ebebeb;
-    max-width:90%;
+    max-width: 90%;
+    
    
    
     
 }
 
 .texto-art {
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
     width: 100%;
     border-top: solid 1px #ebebeb;
     padding: 15px;
     position: relative;
-    transition: black 1s linear;
+    
 }
 
 main section  i { 
@@ -199,12 +207,15 @@ main section  i {
 {
     font-size: 16px;
     color: #39b54a;
+ 
+    width: 70%;
 }
 
 .descripciones
 {
     font-size: 1.4em;
 }
+
 
 
 main h2
@@ -304,6 +315,7 @@ flex-direction: row;
         
         display: flex;
         flex-direction: column;
+
         justify-content:center;
         max-width: 45%;
         align-items: center;
@@ -464,7 +476,11 @@ main section i:hover {
     transform:rotate(1deg);
 }
 
-.texto-art:target {
-
-    background-color: rgb(218, 221, 217);
+.descri_adic:target{
+    display: inline-block;
+    font-size: 1em;
+    color: black;
 }
+
+
+
